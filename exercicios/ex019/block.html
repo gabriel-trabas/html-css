@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block teste</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+           margin: 20px auto 40px auto;
+           text-align: center;
+           border: 2px solid darkgray;
+           border-radius: 10px;
+           padding: 10px 20px 10px 20px;
+           outline: 2px dashed black;
+            
+        }
+        a{
+            text-decoration: none;
+            color: green;
+            border-width: 10px;
+            border-style: groove;
+            border-color: darkgreen;
+
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:hover::after{
+         content:  '💗';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>block level exemplo</h1>
+    <p>páragrafo também é um elemento block level e o <a href="#">link é um exemplo</a> de block inline level</p>
+</body>
+</html>

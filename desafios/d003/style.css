@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+    font-weight:normal;
+    font-style: normal;
+    /* O seletor '*' aplica a regra para TODOS os elementos da página */
+
+}
+body{
+    margin: 0px ;
+    background-color: #3AD07D;
+    padding: 0px;
+    width: 100%;
+    
+}
+header{
+    background:linear-gradient(to top,#1A5C38,#3AD07D);
+    margin:-22px 0px 0px 0px;
+    padding: 20px 0px 10px 20px;
+    color: white;
+    
+
+   
+}
+header > h1{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+    padding: 0px 100px;
+    color: rgba(255, 255, 255, 0.781);
+    
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    margin-right:10px;
+    
+
+
+}
+nav a:hover{
+    color: rgba(255, 255, 255, 0.781);
+}
+main{
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+    margin: 20px 100px 10px 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#titulo-s{
+    font-family: 'idroid';
+    color: #1A5C38;
+    
+}
+.h2{
+    font-family: 'idroid';
+    color: #1A5C38;
+    background: linear-gradient(to right,#47fc99c5,#ffffff);
+}
+.imagem{
+
+    display: flex;
+  height:auto;
+   justify-content: center;
+   margin: 0 auto;
+   background-color: none;
+
+}
+li {
+  display: flex;
+  justify-content: space-between;                  
+  list-style-type:✓;
+}
+
+
+    
+#lista{
+    
+    background-color: #3AD07D;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+    margin: 5px 20px;
+    padding:0px 0px 10px 0px;
+}
+
+.video{
+    display:flex;
+    margin: auto;
+}
+#quer-aprender-mais{
+    background-color: #1A5C38;
+    color: white;
+    padding: 20px;
+     border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.315);
+}
+.bold{
+    font-weight: bold;
+}
+footer{
+    padding: 1px;
+    background-color: #1A5C38;
+    margin: none;
+    width: 100%;
+}
+
+footer  > p{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: none;
+}

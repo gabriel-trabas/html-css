@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens adaptáveis</title>
+</head>
+<body>
+  <h1>imagens adaptáveis</h1>  
+  <p>essa imagem pode ser aberta em vários tipos de telas diferentes</p>
+  <picture>
+      <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png"><source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png"><img src="imagens/foto-g.png" alt="imagem adaptável">
+  </picture>
+  <h1>reproduzindo áudios </h1>
+  <p>reproduzindo áudio</p>
+  <audio src="midia/Galactic Bass - John Patitucci.mp3" controls preload="metadata"  loop  ></audio>
+  <audio> <source src="midia/Galactic Bass - John Patitucci.mp3" type="audio/mpeg">
+    <source src="midia/Galactic Bass - John Patitucci.wav" type="audio/wav">
+    <source> src="midia/Galactic Bass - John Patitucci.ogg" type="audio/ogg">
+    <p> seu navegador não suporta a reprodução de áudio <a href="midia/Galactic Bass - John Patitucci.mp3">clique aqui</a> para baixar </p>
+  </audio>
+  
+  <p>
+  <a href="midia/Galactic Bass - John Patitucci.mp3" download="Galactic_Bass_John_Patitucci.mp3">
+    Clique aqui para baixar o áudio
+  </a>
+  
+</p>
+        
+</body>
+
+</html>

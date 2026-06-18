@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+   <title>Formatação de Texto</title>
+   <style>
+    
+    mark
+    {
+        background-color: rgb(55, 128, 55);
+    }
+   </style>
+</head>
+<body>
+    <h1>Formatação de Texto</h1>
+    <h2>Negrito/destaque</h2>
+    <p>nesse frase temos um <b>termo em negrito</b> uando a tag b (nao semantica)</p>
+    <p>nessa frase temos <strong>termo em negrito</strong>usando a tag strong (semantica)</p>
+    <h2>Itálico-enfase</h2>
+    <p>nessa frase temos um <i>termo em itálico:</i> usando a tag i (não semântica) </p>
+    <p>nessa frase um <em>termo em enfase</em> usando a a tag en (semnatica)</p>
+<h2>Texto marcado</h2>
+<p>podemos criar um  <mark>texto marcado</mark> com a tag mark</p>
+<p>e no outro páragrafo temos um outro <mark>texto marcado</mark></p>
+<h2>Texto <big>grande</big> e <small>pequeno</small> </h2>
+<p>estamos criando um texto grande e um pequeno </p>
+<h2>texto deletado</h2>
+<p>podemos marcar um <del>texto do deletado</del> para indicar que ele deve ser lido mas não considerado</p>
+<h2>Texto inserido</h2>
+<p>podemos marcar um <ins>texto inserido</ins> para indicar que ele foi adicionado depois usando a tag ins (semantica)</p>
+<h2>Texto sublinhado</h2>
+<p>podemos marcar um <u>texto sublinhado</u> com a tag u (nao semantica)</p>
+<h2>Texto sobrescrito</h2>
+<p>podemos marcar um texto sobrescrito x+2x<sup>3 </sup></p>
+<h2>Texto subescrito</h2>
+<p>podemos marcar um texto subescrito h<sub>2</sub>o</p>
+<h1>Outras Formatações</h1>
+<h2>código-fonte / pré formatação</h2>
+<p>podemos marcar um comaando como com a tipografia de código <code>document.getElementbyIld('teste')</code> e fica com a tipografia monoespaçada </p>
+
+            <pre>
+                <code>nome = input("Seu nome: ")
+                idade = int(input("Sua idade: "))
+                ano_atual = 2026
+                nascimento = ano_atual - idade
+                print("Olá,", nome)
+                print("Você nasceu em", nascimento)
+                print("Fim do programa.")</code>
+            </pre>
+            <p>e fazer esse codigo ficar organizado com a <code>tag pre</code></p>
+            <h2>citações</h2>
+            <p>como diria um pai de um amigo:<q>o computaodor é um burro muito rápido</q></p>
+            <h2>citações completas</h2>
+            <p>segundo a autor minha caceta dura no livro meu pau duraço: </p>
+                <blockquote cite="https://www.meupintinho.com.net">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem sint quibusdam incidunt ipsam laboriosam quos voluptatem voluptatibus, doloremque ad cupiditate nihil, doloribus ea odio earum amet perferendis placeat inventore optio?<blockquote>
+                    <h2>Abreviações</h2>
+                    podemos marcar o signifcado de uma abreviação <abbr title="HyperText Markup Language">html</abbr> e <abbr title="cascading style sheets">css</abbr>
+                    <h2>Texto invertido</h2>
+                    <p><bdo dir="rtl">esse texto está invertido </bdo></p>
+           
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outro exemplo</title>
+   <style>
+   div{
+    background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        display: inline-block;
+        border-radius: 10px;
+        text-align: center;
+       
+        
+   } 
+   div:hover{
+        color: red;
+        
+    }
+    div > p{
+        display: none;
+    }
+    div:hover > p {
+        display: block;
+        background-color: red;
+        color: white;
+        width: 200px;
+    }
+   </style>
+</head>
+<body>
+    <p>passe o mouse no texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+</body>
+</html>
