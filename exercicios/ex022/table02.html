@@ -22,12 +22,20 @@
             
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: gray;ímpar
             color: white;
         }
         td.num{
             text-align: right;  
         }
+        tbody > tr:nth-child(even)
+        {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        
     </style>
 </head>
 <body>
