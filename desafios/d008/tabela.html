@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabela  </title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-transform: capitalize;
+            
+        }
+        .destaque{
+            background-color: gray;
+            color: white;
+        }
+        .left{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <H1>Desafio de tabela  &#x1FAE9</H1>
+    <table>
+        <thead>
+           <tr>
+            <th class="destaque" rowspan="2" scope="col">Área</th>
+            <th class="destaque" rowspan="2" scope="col">DIsciplinas</th>
+            <th class="destaque" colspan="2" scope="colgroup">Notas</th>
+            <th class="destaque" rowspan="2" scope="col">Média</th>
+
+           </tr>
+           <tr>
+            <th class="destaque" scope="col">Nota 1</th>
+            <th class="destaque" scope="col">nota 2</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="destaque left" scope="row" >Média de exatadas</th>
+                <td class="destaque">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row" class="destaque left">media de humanas</th>
+                <td class="destaque">0.0</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
