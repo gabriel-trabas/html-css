@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=00, initial-scale=1.0">
+    <title>formulário cor/range/file</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+        <p><label for="icor">color:</label>
+        <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+        <p>
+            <label for="inota">nota:</label>
+            <input type="range" name="nota" id="inota" min="0" max="5" value="0">
+        </p>
+        <p>
+            <label for="ifoto">foto:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
