@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*Declaracoes da tela*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gray;
+    
+
+}
+ul{
+    list-style-type: none;
+    background-color: darkgray;
+    text-align: center;
+   
+   
+}
+menu  li {
+    display: inline-block;
+   
+}
+ menu  li > a{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+   
+    
+    background-repeat: no-repeat;
+}
+ header > h1{
+    color: white;
+   background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+article{
+    width: 400px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
