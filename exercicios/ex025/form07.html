@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário select/datalist/textarea</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <p>
+        <label for="iestado">Estados</label>
+        <select name="estado" id="iestado">
+
+            <optgroup label="Nordeste">
+                <option value="ba">bahia</option>
+                <option value="Ce">Ceara</option>
+                <option value="se">Sergipe</option>
+            </optgroup>
+        </select>
+        </p>
+        <p>
+            <label for="iprof">profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+            <option value="Gari"></option>
+            <option value="Cari"></option>
+            <option value="Pari"></option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imgs">Mensagem</label>
+            <textarea name="msg" id="imsg" cols="50" rows="10">texto</textarea>
+        </p>
+    </form>
+</body>
+</html>
