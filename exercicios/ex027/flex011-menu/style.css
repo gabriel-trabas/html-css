@@ -29,6 +29,22 @@ header > nav{
     border: 1px dotted black;
     
 }
+header >nav >a{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+header >nav >a:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
 main{
     background-color: white;
     padding: 10px;
