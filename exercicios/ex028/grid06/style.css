@@ -1,0 +1,35 @@
+.container{
+    display:grid;
+    grid-template: repeat(8,auto) / repeat(4,auto);
+    background-color: red;
+    height:100vh;
+    width: 100vw;
+    gap:10px;
+    place-items: start normal;
+    
+
+}
+.header{
+    background-color:blue;
+    grid-row:1/4;
+    grid-column:1/-1;
+    height: 15vh;
+}
+menu{
+    background-color: green;
+   
+   height:5vh;
+   
+}
+.corpo{
+    background-color: yellow;
+    grid-row:4/8;
+    grid-column:1/-1;
+    height: 70vh;
+}
+.rodape{
+    background-color: black;
+    grid-row:8/9;
+    grid-column:1/-1;
+    height: 10vh;
+}
